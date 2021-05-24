@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useSelector } from 'react-redux'
+import Restaurants from './components/Restaurants'
+import NavBar from './components/BottomNavBar'
+import TopMenu from './components/TopMenu';
+import { Container } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core';
+import { createMuiTheme } from '@material-ui/core/styles';
+const theme = createMuiTheme({
+	palette: {
+		primary: {
+			main: '#f44336'
+		},
+		secondary: {
+			main: '#43a047'
+		}
+	}
+});
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<ThemeProvider theme={theme}>
+			<Container maxWidth='sm'>
+				<TopMenu />
+				<Restaurants />
+				<NavBar />
+			</Container>
+		</ThemeProvider >
+	)
 }
-
 export default App;
