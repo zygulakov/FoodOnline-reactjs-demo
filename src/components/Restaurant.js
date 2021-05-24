@@ -2,7 +2,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import { Button } from '@material-ui/core';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -14,9 +13,8 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '5px',
     },
     img: {
-        width: 100,
-        height: 100,
-        margin: '0',
+        width: 80,
+        height: 80,
         display: 'block',
         maxWidth: '100%',
         maxHeight: '100%',
@@ -43,13 +41,13 @@ const Restaurant = ({ name = 'restaurant', descr = 'descr',
                                 <Typography variant="body2" gutterBottom>
                                     {descr}
                                 </Typography>
-                                <Typography variant="OVERLINE" gutterBottom>
-                                    {status}
-                                </Typography>
                             </Grid>
                         </Grid>
                         <Grid item>
                             <Typography variant="h6">{rating}</Typography>
+                            <Typography variant="OVERLINE" gutterBottom>
+                                {status}
+                            </Typography>
                         </Grid>
                     </Grid>
                 </Grid>

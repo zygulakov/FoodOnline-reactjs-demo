@@ -6,63 +6,63 @@ const restaurants = [
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.2',
-        image: 'http://fullhdpictures.com/wp-content/uploads/2016/11/Restaurant-Wallpapers.jpg'
+        image: 'https://image.flaticon.com/icons/png/512/732/732217.png'
     },
     {
-        name: 'McDonalds and ',
-        descr: 'FastFoods and Fries',
+        name: 'KFC',
+        descr: 'FastFoods and Chickens',
         status: 'open',
         rating: '8.2',
-        image: 'https://images5.alphacoders.com/686/686085.jpg'
+        image: 'https://as1.ftcdn.net/jpg/02/24/08/18/500_F_224081805_oJVtH5z1yG15Vypn7phCbElRqrpVEZAt.jpg'
     },
     {
-        name: 'McDonalds',
+        name: 'Xuruzak',
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.3',
-        image: 'https://wallpapercave.com/wp/wp2038160.jpg'
+        image: 'https://as1.ftcdn.net/jpg/01/93/87/60/500_F_193876041_ifLVrKAIOnfg7UsD81vDTl2zRKYqmVXL.jpg'
     },
     {
         name: 'McDonalds',
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.2',
-        image: 'https://wallpapercave.com/wp/wp2038160.jpg'
+        image: 'https://as1.ftcdn.net/jpg/01/93/87/60/500_F_193876041_ifLVrKAIOnfg7UsD81vDTl2zRKYqmVXL.jpg'
     },
     {
         name: 'McDonalds',
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.2',
-        image: 'https://wallpapercave.com/wp/wp2038160.jpg'
+        image: 'https://as1.ftcdn.net/jpg/01/93/87/60/500_F_193876041_ifLVrKAIOnfg7UsD81vDTl2zRKYqmVXL.jpg'
     },
     {
         name: 'McDonalds',
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.2',
-        image: 'https://wallpapercave.com/wp/wp2038160.jpg'
+        image: 'https://as1.ftcdn.net/jpg/01/93/87/60/500_F_193876041_ifLVrKAIOnfg7UsD81vDTl2zRKYqmVXL.jpg'
     },
     {
         name: 'McDonalds',
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.2',
-        image: 'https://wallpapercave.com/wp/wp2038160.jpg'
+        image: 'https://as1.ftcdn.net/jpg/01/93/87/60/500_F_193876041_ifLVrKAIOnfg7UsD81vDTl2zRKYqmVXL.jpg'
     },
     {
         name: 'McDonalds',
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.2',
-        image: 'https://wallpapercave.com/wp/wp2038160.jpg'
+        image: 'https://as1.ftcdn.net/jpg/01/93/87/60/500_F_193876041_ifLVrKAIOnfg7UsD81vDTl2zRKYqmVXL.jpg'
     },
     {
         name: 'McDonalds',
         descr: 'FastFoods and Fries',
         status: 'open',
         rating: '8.2',
-        image: 'https://wallpapercave.com/wp/wp2038160.jpg'
+        image: 'https://as1.ftcdn.net/jpg/01/93/87/60/500_F_193876041_ifLVrKAIOnfg7UsD81vDTl2zRKYqmVXL.jpg'
     }
 ]
 
