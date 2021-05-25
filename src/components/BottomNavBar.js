@@ -22,7 +22,7 @@ const BottomNavBar = () => {
         {
             label: 'chat',
             icon: <ForumIcon />
-        }
+        },
     ]
     const [active, setActive] = useState(0);
     const onChange = (e, newValue) => {

@@ -5,6 +5,8 @@ import TopMenu from './components/TopMenu';
 import { Container } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
+import AppRouting from './components/AppRouting';
+
 const theme = createMuiTheme({
 	palette: {
 		primary: {
@@ -18,9 +20,11 @@ const theme = createMuiTheme({
 function App() {
 	return (
 		<ThemeProvider theme={theme}>
-			<Container maxWidth='sm'>
+			<Container maxWidth='lg'>
 				<TopMenu />
-				<Restaurants />
+				<AppRouting>
+					<Restaurants />
+				</AppRouting>
 				<NavBar />
 			</Container>
 		</ThemeProvider >

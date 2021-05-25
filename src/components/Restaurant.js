@@ -27,7 +27,7 @@ const Restaurant = ({ name = 'restaurant', descr = 'descr',
 
     return (
         <div className={classes.root}>
-            <Paper elevation={6} variant='elevation' className={classes.paper}>
+            <Paper elevation={6} className={classes.paper}>
                 <Grid container spacing={1}>
                     <Grid item xs={3}>
                         <img className={classes.img} src={imgSrc} />
