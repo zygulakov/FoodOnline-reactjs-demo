@@ -10,6 +10,7 @@ const Restaurants = () => {
             <Grid container>
                 {restaurantList?.map((rest, index) => {
                     return (<Restaurant key={index}
+                        id  = {rest.id}
                         name={rest.name}
                         descr={rest.descr}
                         status={rest.status}

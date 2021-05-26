@@ -23,12 +23,15 @@ const BottomNavBar = () => {
             label: 'chat',
             icon: <ForumIcon />
         },
-    ]
+    ];
+
     const [active, setActive] = useState(0);
     const onChange = (e, newValue) => {
         setActive(newValue)
     }
 
+    const styles = {
+    }
     return (
         <AppBar position="fixed" style={{ top: "auto", bottom: 0 }}>
             <BottomNavigation
