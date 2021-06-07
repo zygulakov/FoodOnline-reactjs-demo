@@ -25,10 +25,9 @@ const useStyles = makeStyles((theme) => ({
 const Restaurant = ({id, name = 'restaurant', descr = 'descr',
     status = 'closed', rating = '0', imgSrc = '' }) => {
     const classes = useStyles();
-
     return (
         <div className={classes.root}>
-            <Link to ={'/restaurants/'+id} style={{ textDecoration: 'none' }} >
+            <Link to ={`/restaurants/${id}`} style={{ textDecoration: 'none' }} >
                 <Paper elevation={6} className={classes.paper}>
                     <Grid container spacing={1}>
                         <Grid item xs={3}>
